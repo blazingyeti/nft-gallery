@@ -1,0 +1,53 @@
+html {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, 'Courier New', Courier, monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  padding: 1rem;
+}
+
+#header {
+  padding: 1rem;
+  justify-content: right;
+}
+
+#main {
+  padding: 2rem;
+  font-size: 1.4rem;
+  justify-content: center;
+}
+
+.btn, .badge {
+  text-decoration: none;
+  transition: none;
+  font-size: calc(0.6rem + 1.2vw);
+}
+
+.card {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  border: solid;
+  justify-content: center;
+  margin: 0.8vh;
+  width: calc(14rem + 1vw);
+  font-size: calc(0.5rem + 0.2vw);
+  background-color: rgb(245, 245, 245);
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: calc(0.8rem + 0.2vw);
+}
+.card-img {
+  width: calc(9rem + 1vw);
+  height: auto;
+}
